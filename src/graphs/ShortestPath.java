@@ -2,6 +2,7 @@ package graphs;
 
 import java.util.*;
 
+//For Shortest Path BFS is more efficient Solution as compare to DFS.
 public class ShortestPath {
 
     class Pair{

@@ -2,6 +2,8 @@ package graphs;
 
 import java.util.*;
 
+
+//Undirected and Cyclic Graph
 public class HasPathUndirectedGraph {
 
     public boolean hasPath(Map<Character, List<Character>> graph, Character src, Character dst, Set<Character> visited) {
