@@ -17,7 +17,7 @@ public class CourseSchedule {
     public static boolean dfs(Map<Integer, List<Integer>> graph, int node, Set<Integer> visited) {
         if (visited.contains(node)) return false;
 
-        if (graph.get(node).isEmpty()) return true;
+        if (graph.getOrDefault(node, new ArrayList<>()).isEmpty()) return true;
 
         visited.add(node);
 
